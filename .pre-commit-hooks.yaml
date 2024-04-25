@@ -1,0 +1,10 @@
+- id: terraform_fmt
+  name: Terraform fmt
+  description: Reformat your configuration in the standard style.
+  entry: hooks/terraform_fmt.sh
+  language: script
+  types: [file]
+  types_or: [terraform, hcl]
+  pass_filenames: true
+  require_serial: true
+  minimum_pre_commit_version: 2.9.0

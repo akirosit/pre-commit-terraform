@@ -1,0 +1,13 @@
+{
+  "name": "pre-commit-terraform",
+  "version": "1.0.0",
+  "scripts": {
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "release-it": "^17.2.0"
+  },
+  "dependencies": {
+    "@release-it/conventional-changelog": "^8.0.1"
+  }
+}
